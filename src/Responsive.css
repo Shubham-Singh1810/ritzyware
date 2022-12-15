@@ -1,0 +1,73 @@
+@media only screen and (max-width:1150px){
+    .cardlist{
+        margin: 80px 10px;
+      }
+      .chooseSection{
+        margin: 0px 10px;
+      }
+      .productsSection{
+        padding: 30px 10px;
+        margin: 30px 0px;
+      }
+      .clientSpeekSection{
+        margin: 20px 10px;
+      }
+      .imageGallery{
+        margin: 0px 10px;
+      }
+      footer{
+        padding: 30px;
+      }
+}
+@media only screen and (max-width:950px){
+    .Card{
+        margin: 5px;
+        padding: 5px;
+    }
+    footer{
+        padding: 30px 10px;
+    }
+}
+@media only screen and (max-width:800px){
+    .cardlist{
+        grid-template-columns: 1fr 1fr  ;
+      }
+      footer{
+        font-size: 10px;
+      }
+      .homeSlider{
+        height: 50vh;
+      }
+      
+      .clientReviewList{
+        grid-template-columns: 1fr 1fr  ;
+      }
+}
+@media only screen and (max-width:450px){
+    .cardlist{
+        grid-template-columns: 1fr   ;
+      }
+      .clientReviewList{
+        grid-template-columns: 1fr   ;
+      }
+      .homeSlider{
+        height: 35vh;
+      }
+      .chooseSection{
+        flex-direction: column;
+      }
+      .ourClients{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+      }
+      .someClientReview{
+        flex-direction: column;
+      }
+      footer{
+        flex-direction: column;
+        text-align: center;
+      }
+      footer ul{
+        list-style: none;
+      }
+}
